@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+p {
+  font-size: 20px;    
+}
+
+header {
+  background-color: #006400; /* Verde escuro para o cabeçalho */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logoimagem {
+  width: 90px;
+  height: 90px;
+  border-radius: 25px;
+}
+
+.container-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logotexto {
+  margin-left: 20px;
+  color: white;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.menu li a {
+  font-size: 24px;
+  text-decoration: none;
+  color: white; /* Cor branca para os links do menu */
+  text-transform: uppercase;
+}
+
+#título {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-weight: bold; 
+}
+
+#conteudo-titulo {
+  text-align: center;
+}
+
+#textos {
+  font-size: 25px;
+  margin: 0px 20px 0px 20px; 
+  text-align: justify;
+}
+
+#subtitulo {
+  text-align: center;
+}
+
+#subtitulo2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #006400; /* Verde escuro para o rodapé */
+  text-align: center;
+  color: white; /* Cor branca para o texto do rodapé */
+}
+
+#TTL {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#conteudo-principal {
+  flex: 1 1 0;
+}

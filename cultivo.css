@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+p {
+  font-size: 20px;    
+}
+
+header {
+  background-color: #006400; /* Verde escuro */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logoimagem {
+  width: 90px;
+  height: 90px;
+  border-radius: 25px;
+}
+
+.container-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logotexto {
+  margin-left: 20px;
+  color: white; /* Texto do logo em branco */
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.menu li a {
+  font-size: 24px;
+  text-decoration: none;
+  color: white; /* Links do menu em branco */
+  text-transform: uppercase;
+}
+
+#titulo {
+  text-align: center;
+}
+
+.textos {
+  font-size: 25px;
+  margin: 0px 20px 0px 20px; 
+  text-align: justify;
+}
+
+#imagens1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#imagens2 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 22%;
+  margin: 9px;
+}
+
+.ttl {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#conteudo-principal {
+  flex: 1 1 0;
+}
+
+footer {
+  text-align: center;
+  background-color: #006400; /* Verde escuro */
+  color: white; /* Texto do rodapé em branco */
+}
