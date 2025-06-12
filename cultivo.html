@@ -16,6 +16,7 @@
         </div>
 
         <div class="menu">
+            <button id="btn-contraste">Alto Contraste</button>
             <ul>
                 <li><a href="./index.html" >🌲Início</a></li>
                 <li><a href="./sobre.html" >🌲Sobre o Projeto</a></li>
@@ -57,5 +58,11 @@
         <p>&copy; 2025 Isadora Vedelago Vieira. Todos os direitos reservados.</p>
         <br>
     </footer>
+    <script>
+  const btn = document.getElementById("btn-contraste");
+  btn.addEventListener("click", () => {
+    document.body.classList.toggle("contraste");
+  });
+</script>
 </body>
 </html>
