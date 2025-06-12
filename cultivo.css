@@ -79,6 +79,10 @@ header {
   border-radius: 10px;
 }
 
+img {
+  width: 22%;
+  margin: 9px;
+}
 .ttl {
   margin-left: 20px;
   font-weight: bold;
