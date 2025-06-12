@@ -71,10 +71,12 @@ header {
   display: flex;
   justify-content: center;
 }
-
-img {
+#imagens1 img,
+#imagens2 img {
   width: 22%;
-  margin: 9px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .ttl {
