@@ -69,3 +69,34 @@ footer {
 #conteudo-principal {
     flex: 1 1 0;
 }
+#btn-contraste {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.contraste {
+  background-color: black !important;
+  color: yellow !important;
+}
+
+.contraste header,
+.contraste footer {
+  background-color: black !important;
+}
+
+.contraste .menu li a,
+.contraste .logotexto {
+  color: yellow !important;
+}
+
+.contraste #btn-contraste {
+  background-color: black !important;
+  color: yellow !important;
+  border: 2px solid yellow;
+}
