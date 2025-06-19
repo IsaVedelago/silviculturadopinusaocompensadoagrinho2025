@@ -71,15 +71,8 @@ header {
   display: flex;
   justify-content: center;
 }
-
-#imagens3 {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
 #imagens1 img,
-#imagens2 img,
-#imagens3 {
+#imagens2 img {
   width: 22%;
   height: 200px;
   object-fit: cover;
