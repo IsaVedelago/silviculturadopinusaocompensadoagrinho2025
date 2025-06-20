@@ -48,7 +48,7 @@ header {
 .menu li a {
   font-size: 24px;
   text-decoration: none;
-  color: white; /* Cor branca para os links do menu */
+  color: white; 
   text-transform: uppercase;
 }
 
@@ -56,7 +56,7 @@ header {
   font-family: 'Bungee Tint', sans-serif;
   font-size: 40px;
   text-align: center;
-  color: #8B4513; /* cor marrom tipo madeira */
+  color: #8B4513; 
 }
 
 h3 {
@@ -84,9 +84,9 @@ h3 {
 }
 
 footer {
-  background-color: #006400; /* Verde escuro para o rodapé */
+  background-color: #006400; 
   text-align: center;
-  color: white; /* Cor branca para o texto do rodapé */
+  color: white; 
 }
 
 #TTL {
