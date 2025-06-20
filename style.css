@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
 
 *{
 	padding: 0;
@@ -53,9 +53,10 @@ header {
 }
 
 #título {
-  font-family: "Bungee Spice", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: 'Bungee Tint', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: #8B4513; /* cor marrom tipo madeira */
 }
 
 h3 {
