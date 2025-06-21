@@ -134,3 +134,25 @@ footer {
   color: white !important;
   border: 2px solid white;
 }
+.acessibilidade {
+  position: fixed;
+  top: 110px;
+  right: 20px;
+  z-index: 999; 
+  background-color: #ffffffdd;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.acessibilidade button {
+  margin-left: 0.3rem;
+  padding: 0.4rem 0.6rem;
+  border: none;
+  background-color: white;
+  color: #006400; 
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}

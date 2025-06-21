@@ -132,9 +132,9 @@ footer {
 }
 .acessibilidade {
   position: fixed;
-  top: 110px; /* abaixo do header */
+  top: 110px;
   right: 20px;
-  z-index: 999; /* garante que fique acima de outros elementos */
+  z-index: 999; 
   background-color: #ffffffdd;
   padding: 10px;
   border-radius: 10px;
@@ -146,7 +146,7 @@ footer {
   padding: 0.4rem 0.6rem;
   border: none;
   background-color: white;
-  color: #006400; /* mesma cor do cabeçalho */
+  color: #006400; 
   font-weight: bold;
   cursor: pointer;
   border-radius: 4px;
