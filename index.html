@@ -23,6 +23,12 @@
                 </ul>
             </div>
         </header>
+        <div class="acessibilidade">
+                <button id="contraste">Contraste</button>
+                <button id="btnAumentar">A+</button>
+                <button id="btnDiminuir">A-</button>
+        </div>
+
     <div id="conteudo-titulo">
         
         <br>
@@ -71,6 +77,26 @@
   btn.addEventListener("click", () => {
     document.body.classList.toggle("contraste");
   });
+    // Acessibilidade - aumento e diminuição da fonte
+  let tamanhoFonte = 100; // base 100%
+
+  const btnAumentar = document.getElementById("btnAumentar");
+  const btnDiminuir = document.getElementById("btnDiminuir");
+
+  btnAumentar.addEventListener("click", () => {
+    if (tamanhoFonte < 150) {
+      tamanhoFonte += 10;
+      document.body.style.fontSize = tamanhoFonte + "%";
+    }
+  });
+
+  btnDiminuir.addEventListener("click", () => {
+    if (tamanhoFonte > 80) {
+      tamanhoFonte -= 10;
+      document.body.style.fontSize = tamanhoFonte + "%";
+    }
+  });
+</script>
 </script>
 </body>
 </html>
