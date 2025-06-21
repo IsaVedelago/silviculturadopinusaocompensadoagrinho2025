@@ -4,7 +4,7 @@
 
 Esta pagina foi desenvolvida como parte de um projeto escolar interdisciplinar para apresentar a importância da silvicultura com foco no cultivo do **Pinus**, especialmente na cidade de **Clevelândia, Paraná**. A página busca destacar os benefícios ambientais, econômicos e sociais do manejo florestal sustentável.
 
-O projeto faz parte da componente currícular **Matemática II - Programação**, ministrada no **Colégio Estadual Cívico Militar Presidente Castelo Branco**, por meio da linguagem Front-End com marcação **HTML** e folhas de estilo **CSS**. 
+O projeto faz parte da componente currícular **Matemática II - Programação**, ministrada no **Colégio Estadual Cívico Militar Presidente Castelo Branco**, por meio da linguagem Front-End com marcação **HTML** e folhas de estilo **CSS**. Ele foi realizado para participar do **Projeto Agrinho 2025, desenvolvido pelo sistema FAEP**.
 
 ## 👩‍🎓 Autoria
 
